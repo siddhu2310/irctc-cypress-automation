@@ -84,7 +84,7 @@
 
 ## Running this whole bunch ?
 
-
+***Linux:***
 - clone the repo
 - make sure you have Nodejs and npm installed
 ```
@@ -100,7 +100,18 @@ npm install
 npx cypress open
 
 ```
+***Windows:***
+- Clone the repo / Download as a zip file and extract it.
+- Make sure you have Nodejs [[Dwonload Node JS](https://nodejs.org/en/download/current)]
 
+- Navigate to **irctc-cypress-automation** and install dependencies
+  
+```
+open the cmd [Win + R]
+cd "C:\Path\irctc-cypress-automation-main" [Replace with your actual path]
+npm update
+npx cypress open
+```
 
 
 - Now navigate to **irctc-cypress-automation/irctc-captcha-solve-server** and install all requirements and run the server
